@@ -1,0 +1,45 @@
+.title {
+    color:aqua;
+background: black;
+background-color: rgb(54,219, 197);
+width: auto;
+margin: 20px;
+height: 300px;
+text-align: center;
+}
+
+
+.bottom {
+      display: flex;
+
+}
+.content1 {
+    border-top: 30px purple solid;
+       margin: 20px;
+}
+
+.content2 {
+    border-top: 30px red solid;
+       margin: 20px;
+}
+
+.content3 {
+    border-top: 30px blue solid;
+       margin: 20px;
+}
+
+
+
+
+
+
+
+.bottom article h1 {
+    text-align: center;
+}
+@media (max-width: 840px) {
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+}
